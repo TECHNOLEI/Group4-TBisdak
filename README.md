@@ -3,7 +3,7 @@
 
 # Put commit like this: 
 
-<!-- Start edited with name -->
+<!-- Start edited with name
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
@@ -14,6 +14,6 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                 </ul>
             </div>
-<!-- End edited with name -->         
+ -->         
 
 Para mas dali nto ma track dyun nto bay
