@@ -6691,3 +6691,6 @@ section.resume-section .resume-section-content {
   float: right;
   border: 3px solid #0b6bcc;
 }
+.fa-icon{
+  color: orange;
+}
