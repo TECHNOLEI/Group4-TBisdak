@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <!-- <link href="css/styles.css" rel="stylesheet" /> -->
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+<style>
+
+body {
+  
+  font-family: "Lato", sans-serif;
+  position: relative;
+}
+
+.default {
+
+  padding-left: 65px;
+ 
+}
+
+#sidebar-nav {
+
+  padding-top: 250px;
+  margin: 0;
+  width: 270px;
+  background-color: tomato;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  
+}
+
+.sidebar a {
+  font-family: monospace;
+  font-weight: bold;
+  display: block;
+  color: rgb(255, 255, 255);
+  opacity:0.7;
+  text-align: center;
+  
+}
+ 
+.sidebar a.active {
+  background-color: tomato;
+  color:rgba(255, 255, 255, 0.534);
+}
+
+.sidebar a:hover:not(.active) {
+  background-color:tomato;
+  color: rgba(255, 255, 255, 0.534);
+}
+
+.sidenav-nav {
+line-height: 35px;
+letter-spacing: 2px;
+
+}
+
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+section.resume-section .resume-section-content {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+.testimonies{
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 26px;
+  margin: 16px 0
+}
+.img-estimonies{
+  width: 150px;
+  height: 80px;
+  float: right;
+  border: 3px solid #0b6bcc;
+}
+.fa-icon{
+  color: orange;
+}
+</style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".sidebar" data-bs-offset="50">
+
+
+<nav id="sidebar-nav" class="sidebar">
+  
+<span class="default"><img class="img-profile rounded-circle" src="prof pic.jpg" alt="..."/></span>
+
+
+
+
+<div id="sidenav-nav" class="sidenav-nav">
+
+  <a class="nav-link" href="#about">ABOUT</a>
+  <a class="nav-link" href="#experience">EXPERIENCE</a>
+  <a class="nav-link" href="#education">EDUCATION</a>
+  <a class="nav-link" href="#skills">SKILLS</a>
+  <a class="nav-link" href="#interests">INTERESTS</a>
+  <a class="nav-link" href="#testimonies">TESTIMONIES</a>
+
+</div>
+
+</nav>
+
+<div class="scroll area">
+
+<div id="about" style="padding:300px 20px 100px; margin-left: 270px;">
+    <h1>Section 1</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+  
+  <div id="experience" style="padding:100px 20px; margin-left: 270px;">
+    <h1>Section 2</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+  
+  <div id="education" style="padding:100px 20px; margin-left: 270px;">
+    <h1>Section 3</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+  
+  <div id="skills" style="padding:100px 20px; margin-left: 270px;">
+      <h1>Section 4</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    </div>
+    
+    <div id="interests" style="padding:100px 20px; margin-left: 270px;">
+      <h1>Section 5</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    </div>
+
+    <div id="testimonies" style="padding:100px 20px; margin-left: 270px;">
+        <h1>Section 5</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <div class="container-fluid testimonies">
+          <img
+            class="img-estimonies rounded-circle"
+            src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-6/290627376_5297935513633392_7596509451333900027_n.jpg?stp=dst-jpg_p526x296&_nc_cat=104&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeG4WeBkZUePHO7552nFae51BnU1kYRf8MMGdTWRhF_ww9QZOxuOtHOSpkICiPTFQQxSxhb-YH_4qD2fSkCMHFlk&_nc_ohc=OwGIL9XiSJkAX-ksYqn&_nc_zt=23&_nc_ht=scontent.fdvo2-1.fna&oh=00_AT_K7QkbQwr9f1CDqsEymjq0WsQdQEXlLnhfgmAE5JDjlA&oe=634F8FAD"
+            alt="Avatar"
+            style="width: 90px"
+          />
+          <p>
+            " Karl is a friendly person who is always thinking
+            positively, creatively, and with ideas that can help us. Manage
+            all aspects of the work relationship. "
+          </p>
+          <p><strong>Carampatana</strong> CEO at Technolei IT Solution</p>
+          <li class="list-inline-item fa-icons">
+            <i class="fa fa-star"></i>
+          </li>
+          <li class="list-inline-item fa-icon">
+            <i class="fa fa-star"></i>
+          </li>
+          <li class="list-inline-item fa-icon">
+            <i class="fa fa-star"></i>
+          </li>
+          <li class="list-inline-item fa-icon">
+            <i class="fa fa-star"></i>
+          </li>
+          <li class="list-inline-item fa-icon">
+            <i class="fa fa-star"></i>
+          </li>
+        </div>
+      </div>
+    </div>
+
+
+
+</body>
+</html>

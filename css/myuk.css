@@ -4511,7 +4511,7 @@ textarea.form-control-lg {
 
 .card {
   position: relative;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
@@ -11432,4 +11432,51 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.img-estimonies{
+  width: 150px;
+  height: 80px;
+  float: right;
+  border: 3px solid #0b6bcc;
+}
+.fa-icon{
+  color: orange;
+}
+section.resume-section {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+section.resume-section .resume-section-content {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+.testimonies{
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 26px;
+  margin: 16px 0
+}
+.img-jelou{
+  height: 285px;
+  
 }
