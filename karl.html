@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <!-- <link href="css/styles.css" rel="stylesheet" /> -->
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
-      crossorigin="anonymous"
-    ></script>
+  <title>My First Portfolio Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+
 <style>
 
 body {
@@ -24,6 +21,25 @@ body {
 
   padding-left: 65px;
  
+}
+
+.head {
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.para {
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.second {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(150, 57, 4, 0.582);
+  font-weight: bold;
+
 }
 
 #sidebar-nav {
@@ -64,13 +80,23 @@ letter-spacing: 2px;
 
 }
 
+.scroll-area {
 
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
+  padding-left: 300px;
 }
 
+#about {
+
+padding-top: 120px;
+
+
+}
+
+#skills {
+padding-left: 24px;
+
+
+}
 
 @media screen and (max-width: 700px) {
   .sidebar {
@@ -85,36 +111,42 @@ div.content {
 @media screen and (max-width: 400px) {
   .sidebar a {
     text-align: center;
-    float: none;
+    float: right;
   }
 }
+
 section.resume-section .resume-section-content {
   width: 100%;
+  
+ 
 }
 
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
+    justify-content: center;
   }
 }
 @media (min-width: 992px) {
   section.resume-section {
-    padding-left: 3rem;
+    padding-left: 5rem;
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    justify-content: center;
   }
 }
-.testimonies{
+
+.testimonies {
   border: 2px solid #ccc;
   background-color: #eee;
   border-radius: 5px;
   padding: 26px;
   margin: 16px 0
 }
-.img-estimonies{
+.img-testimonies{
   width: 150px;
-  height: 80px;
+  height: 40px;
   float: right;
   border: 3px solid #0b6bcc;
 }
@@ -131,8 +163,6 @@ section.resume-section .resume-section-content {
 <span class="default"><img class="img-profile rounded-circle" src="prof pic.jpg" alt="..."/></span>
 
 
-
-
 <div id="sidenav-nav" class="sidenav-nav">
 
   <a class="nav-link" href="#about">ABOUT</a>
@@ -146,93 +176,75 @@ section.resume-section .resume-section-content {
 
 </nav>
 
-<div class="scroll area">
+<div class="scroll-area">
 
-<div id="about" style="padding:300px 20px 100px; margin-left: 270px;">
-    <h1>Section 1</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  </div>
-  
-  <div id="experience" style="padding:100px 20px; margin-left: 270px;">
-    <h1>Section 2</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  </div>
-  
-  <div id="education" style="padding:100px 20px; margin-left: 270px;">
-    <h1>Section 3</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  </div>
-  
-  <div id="skills" style="padding:100px 20px; margin-left: 270px;">
-      <h1>Section 4</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
+<div id="about" style="padding:300px 20px 100px">
+
+    <h1 class="head" id="fhead">KARL<span class="text-secondary">BACERA</span></h1>
+    <p class="para">Aspiring Web Developer thriving to hone timely and toptnatch IT skills, with fundamental knowledge in HTML5, CSS3, Bootstrap5, and JS.</p>
     
-    <div id="interests" style="padding:100px 20px; margin-left: 270px;">
-      <h1>Section 5</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
+</div>
 
-    <div id="testimonies" style="padding:100px 20px; margin-left: 270px;">
-        <h1>Testimonies</h1>
-        <div class="container-fluid testimonies">
-          <img
-            class="img-estimonies rounded-circle"
-            src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-6/290627376_5297935513633392_7596509451333900027_n.jpg?stp=dst-jpg_p526x296&_nc_cat=104&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeG4WeBkZUePHO7552nFae51BnU1kYRf8MMGdTWRhF_ww9QZOxuOtHOSpkICiPTFQQxSxhb-YH_4qD2fSkCMHFlk&_nc_ohc=OwGIL9XiSJkAX-ksYqn&_nc_zt=23&_nc_ht=scontent.fdvo2-1.fna&oh=00_AT_K7QkbQwr9f1CDqsEymjq0WsQdQEXlLnhfgmAE5JDjlA&oe=634F8FAD"
-            alt="Avatar"
-            style="width: 90px"
-          />
-          <p>
-            " Karl is a friendly person who is always thinking
-            positively, creatively, and with ideas that can help us. Manage
-            all aspects of the work relationship. "
+  
+  <div id="experience" style="padding: 100px 20px;">
+    <h1 class="head">EXPERIENCE</h1>
+  </br>
+    <h2 class="second">FIRE OFFICER 1</h2>
+    <p class="para">Bureau of Fire Protection - BARMM</p>
+    <p class="para">Undergone FBRC and FROC, well-equiped with knowledge with regards to fire prevention and suppression.</p>
+</br>
+    <h2 class="second">Market Research Interviewer</h2>
+    <p class="para">Survey Sampling International, Davao</p>
+    <p class="para">Conducting a variety of survey via phone interview, with respondents all coming from the US, adept at building rapport, and demonstrates professional demeanor at all times.</p>
+  </div>
+
+  <div id="education" style="padding:100px 20px;">
+    <h1 class="head">EDUCATION</h1>
+    <h2 class="second">Notre Dame University, Cotabato City</h2>
+    <p class="para">Bachelor of Science in Electrical Engineering</p>
+  
+    <h2 class="second">Notre Dame Village, National High School</h2>
+    <p class="para">Secondary School</p>
+  </div>
+
+
+  <div id="skills" class="resume-section-content">
+    <h1 class="head">SKILLS</h1>
+    <div class="second">Programming Languages & Tools</div>
+    <ul class="list-inline dev-icons">
+        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+    </ul>
+    </div>
+  
+    
+    <div id="interests" style="padding:100px 20px;">
+      <h1 class="head">INTERESTS</h1>
+      <p class="para">I'm spending my spare time bonding and cuddling with my kids and play and play and play <span class="text-dark fs-5">VIDEO GAMES!!!</span></p>
+     
+    </div>
+  
+
+    <div id="testimonies" style="padding:100px 20px;">
+        <h1 class="head">TESTIMONIES</h1>
+    </br>
+          <p class="para">
+            "Karl is a friendly person who is always thinking
+             positively, creatively, and with ideas that can help us. Manage
+             all aspects of the work relationship."
           </p>
-          <p><strong>Carampatana</strong> CEO at Technolei IT Solution</p>
-          <li class="list-inline-item fa-icons">
-            <i class="fa fa-star"></i>
-          </li>
-          <li class="list-inline-item fa-icon">
-            <i class="fa fa-star"></i>
-          </li>
-          <li class="list-inline-item fa-icon">
-            <i class="fa fa-star"></i>
-          </li>
-          <li class="list-inline-item fa-icon">
-            <i class="fa fa-star"></i>
-          </li>
-          <li class="list-inline-item fa-icon">
-            <i class="fa fa-star"></i>
-          </li>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img src="assets/img/profile.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h3>Reymund Jumawan</h3>
-            <p class="card-text">
-              It's been better since working with Karl. He's such an approachable and very kind.
-            </p>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
+          <p class="para"><strong>-Arjelou Carampantana</strong></p>
+         
+
+          <p class="para">
+            "It's been better since working with Karl. He's such an approachable and very kind."
+          </p>
+          <p class="para"><strong>-Reymund Jumawan</strong></p>
+           
       </div>
     </div>
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
